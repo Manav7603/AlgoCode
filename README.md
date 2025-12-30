@@ -1,0 +1,2 @@
+# AlgoCode
+Outthink. Outcode.
