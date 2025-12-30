@@ -1,0 +1,9 @@
+cd server                   
+npm init -y    # Create a package.json
+npm install express socket.io cors
+npm install --save-dev nodemon
+npm install --save-dev typescript ts-node @types/node @types/express @types/cors
+make index.ts
+from server: npx nodemon index.js or npx nodemon --exec ts-node index.ts 
+this script auto added so only npm run dev
+if neeed lsof -ti:3001 | xargs kill -9

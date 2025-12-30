@@ -1,0 +1,4 @@
+npx create-next-app@latest client
+cd client
+npm install socket.io-client
+npm run dev
