@@ -1,8 +1,8 @@
 {
-  "watch": ["*.ts"],
+  "watch": ["src"],
   "ext": "ts",
-  "exec": "ts-node index.ts",
-  "ignore": ["node_modules", "dist"],
+  "exec": "ts-node src/index.ts",
+  "ignore": ["node_modules", "dist", "tests"],
   "delay": 1000,
   "signal": "SIGTERM"
 }
